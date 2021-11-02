@@ -1,5 +1,5 @@
 # Basic docker commands
-This is a document for basic docker commands. You need .NET 5 and docker desktop installed in
+This is a document for basic docker commands. You need .NET 5 SDK and docker desktop installed in
 your machine to follow the below steps.
 
 ## Create a .NET web api
