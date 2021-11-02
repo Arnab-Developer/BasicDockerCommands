@@ -16,8 +16,9 @@ dotnet new webapi
 dotnet run
 ```
 
-Open a web browser and test the api with `http://localhost:5000/weatherforecast`. Next publish the api in a 
-separate folder.
+Open a web browser and test the api with `http://localhost:5000/weatherforecast`. 
+
+Next publish the api in a separate folder.
 
 ```
 cd c:\
@@ -44,7 +45,11 @@ dotnet Api1.dll
 Open a web browser and test the api with `http://localhost:5000/weatherforecast`. 
 
 ## Create docker container
-Create a `Dockerfile` inside `Api1Publish` folder (not inside the `publish` folder). Write the below code inside that.
+Create a `Dockerfile` inside `Api1Publish` folder (not inside the `publish` folder). 
+
+![image](https://user-images.githubusercontent.com/3396447/139822333-aed832fd-aa01-48f8-9295-f864e102dc1b.png)
+
+Write the below code inside that.
 
 ```
 FROM mcr.microsoft.com/dotnet/aspnet:5.0
