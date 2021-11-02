@@ -1,5 +1,6 @@
 # Basic docker commands
-This is a blog post for basic docker commands.
+This is a document for basic docker commands. You need .NET 5 and docker desktop installed in
+your machine to follow the below steps.
 
 ## Create a .NET web api
 Open terminal and execute the below commands to create a new .NET web api.
