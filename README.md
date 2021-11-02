@@ -44,7 +44,7 @@ dotnet Api1.dll
 Open a web browser and test the api with `http://localhost:5000/weatherforecast`. 
 
 ## Create docker container
-Create a `Dockerfile` inside `Api1Publish` folder. Write the below code inside that.
+Create a `Dockerfile` inside `Api1Publish` folder (not inside the `publish` folder). Write the below code inside that.
 
 ```
 FROM mcr.microsoft.com/dotnet/aspnet:5.0
